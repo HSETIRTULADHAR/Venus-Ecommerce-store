@@ -4,8 +4,8 @@ const nextConfig = {
     appDir: true,
   },
   env: {
-    API_URL: "http://127.0.0.1:3000",
-    DB_URI: "mongodb://127.0.0.1:27017/buyitnow",
+    API_URL: "http://27.34.104.153:3000",
+    DB_URI: "mongodb://27.34.104.153:27017/buyitnow",
   },
   images: {
     domains: ["res.cloudinary.com"],
