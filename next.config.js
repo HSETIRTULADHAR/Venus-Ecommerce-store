@@ -4,7 +4,7 @@ const nextConfig = {
     appDir: true,
   },
   env: {
-    API_URL: "https://venus-ecommerce-store-1ldc9zz6i-hsetirtuladhar.vercel.app/",
+    API_URL: "https://w29qbvkj-3000.asse.devtunnels.ms/",
     DB_URI: "mongodb+srv://ecommerce:NePaL530351@buyitnow.0e0exre.mongodb.net/?retryWrites=true&w=majority",
   },
   images: {
