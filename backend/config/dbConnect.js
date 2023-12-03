@@ -9,7 +9,7 @@ const dbConnect = () => {
 
 
   mongoose.set("strictQuery", false);
-  mongoose.connect("mongodb+srv://ecommerce:NePaL530351@cluster0.0mporsl.mongodb.net/buyitnow?retryWrites=true&w=majority")
+  mongoose.connect(DB_URI)
           .then(
             () => {
               Product.find().then((item)=> {
